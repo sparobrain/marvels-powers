@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Forge 47.x for Minecraft 1.20.1
+license="MIT"
+issueTrackerURL="https://github.com/yourusername/marvels_powers/issues" # Optional
+
+[[mods]]
+modId="marvels_powers"
+version="1.0.0"
+displayName="Marvel's Powers"
+displayURL="https://github.com/yourusername/marvels_powers" # Optional
+logoFile="logo.png" # Place a logo in src/main/resources (optional)
+credits="Thanks to Forge and the modding community."
+authors="YourName"
+description='''
+Adds superhero powers inspired by Marvel characters.
+'''
+
+[[dependencies.marvels_powers]]
+modId="forge"
+mandatory=true
+versionRange="[47.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.marvels_powers]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
