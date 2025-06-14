@@ -10,6 +10,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.shahar.marvels_powers.block.ModBlocks;
+import net.shahar.marvels_powers.item.ModCreativeModTabs;
 import net.shahar.marvels_powers.item.ModItems;
 import org.slf4j.Logger;
 
@@ -21,7 +23,9 @@ public class MarvelsPowers {
     public MarvelsPowers() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus); // Register items
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
@@ -33,7 +37,8 @@ public class MarvelsPowers {
     private void buildCreativeTab(BuildCreativeModeTabContentsEvent event) {
         // Add items to creative tab here if needed
 if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-    event.accept(ModItems.VIBRANIUM);
+    event.accept(ModItems.RAW_VIBRANIUM);
+    event.accept(ModItems.VIBRANIUM_ORE);
 }
 
     }
