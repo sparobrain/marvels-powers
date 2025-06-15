@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "marvels_powers:vibranium_ore"
+    }
+  },
+  "result": {
+    "item": "marvels_powers:vibranium_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cooking_time": 200,
+  "experience": 1.0,
+  "group": "vibranium",
+  "ingredient": {
+    "item": "marvels_powers:raw_vibranium"
+  },
+  "result": {
+    "item": "marvels_powers:vibranium_ore"
+  }
+}

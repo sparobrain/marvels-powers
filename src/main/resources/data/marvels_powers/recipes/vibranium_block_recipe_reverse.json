@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "marvels_powers:vibranium_block"
+    }
+  ],
+  "result": {
+    "item": "marvels_powers:vibranium_ore",
+    "count": 9
+  }
+}

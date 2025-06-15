@@ -2,5 +2,8 @@
   "item.marvels_powers.raw_vibranium": "Raw Vibranium",
   "item.marvels_powers.vibranium_ore": "vibranium ore",
 
+  "block.marvels_powers.vibranium_block": "block of vibranium",
+  "block.marvels_powers.raw_vibranium_block": "raw vibranium block",
+
  "creative.marvels_tab": "avengers tab"
 }

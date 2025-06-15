@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "marvels_powers:raw_vibranium_block"
+    }
+  ],
+  "result": {
+    "item": "marvels_powers:raw_vibranium",
+    "count": 9
+  }
+}

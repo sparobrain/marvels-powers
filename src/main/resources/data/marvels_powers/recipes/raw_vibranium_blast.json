@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cooking_time": 100,
+  "experience": 1.0,
+  "group": "vibranium",
+  "ingredient": {
+    "item": "marvels_powers:raw_vibranium"
+  },
+  "result": "marvels_powers:vibranium_ore"
+}
