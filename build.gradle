@@ -196,3 +196,11 @@ tasks.named('jar', Jar).configure {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+repositories {
+    maven {
+        name = "Forge"
+        url = "https://maven.minecraftforge.net"
+    }
+    mavenCentral()
+    // any other repos you need
+}

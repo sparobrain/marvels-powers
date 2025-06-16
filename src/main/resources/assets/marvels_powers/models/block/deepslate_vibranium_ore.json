@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:block/cube_all",
+  "textures": {
+    "all": "marvels_powers:block/deepslate_vibranium_ore"
+  }
+}

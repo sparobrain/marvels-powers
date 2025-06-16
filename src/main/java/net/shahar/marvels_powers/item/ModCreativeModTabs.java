@@ -26,6 +26,8 @@ public static final RegistryObject<CreativeModeTab> marvels_tab = CREATIVE_MODE_
                     output.accept(ModBlocks.VIBRANIUM_BLOCK.get());
                     output.accept(ModBlocks.RAW_VIBRANIUM_BLOCK.get());
 
+                    output.accept(ModBlocks.DEEPSLATE_VIBRANIUM_ORE.get());
+                    output.accept(ModBlocks.STONE_VIBRANIUM_ORE.get());
 
 
 
